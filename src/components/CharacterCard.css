@@ -1,0 +1,53 @@
+/* Character Info Page */
+.character-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.character-card {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(30, 30, 30, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+.character-image {
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-right: 20px;
+}
+
+.character-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.character-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.character-details p {
+    font-size: 1.2rem;
+    margin: 8px 0;
+}
+
+.character-description {
+    margin-top: 15px;
+    font-style: italic;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}

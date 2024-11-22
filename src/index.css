@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: url('https://wallpaperaccess.com/full/496876.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  overflow: hidden;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: 'Star Jedi', sans-serif;
+  letter-spacing: 3px;
+}
+
+.search-bar {
+  width: 80%;
+  max-width: 400px;
+  padding: 15px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: #1e1e1e;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.search-bar::placeholder {
+  color: #888;
+}
+
+.search-bar:focus {
+  background: #333;
+  box-shadow: 0 4px 15px rgba(255, 193, 7, 0.8);
+}
+
+.dropdown {
+  list-style: none;
+  margin: 10px auto;
+  padding: 0;
+  max-width: 400px;
+  background: #333;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-item {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: white;
+  border-bottom: 1px solid #444;
+}
+
+.dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.dropdown-item:hover {
+  background: #555;
+}
+
+.character-info {
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+.character-image {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+.character-info p {
+  margin: 10px 0;
+  font-size: 18px;
+}
